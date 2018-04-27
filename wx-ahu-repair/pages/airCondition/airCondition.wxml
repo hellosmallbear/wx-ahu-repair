@@ -1,0 +1,13 @@
+<!--pages/airCondition/airCondition.wxml-->
+<swiper indicator-dots="true" autoplay="true" interval="3000" duration="500" circular="true">
+  <block wx:for="{{imgUrls}}" wx:key="{{item.i}}">
+    <swiper-item>
+      <image src="{{item}}" style="width:100%;height:100%;" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class='air-text'>
+<text>第1：检查空调是否欠费</text>
+<text>第2：检查空调遥控器是否有电</text>
+<text bindtap="callContact" data-phonenumber="63861042">第3：点击拨打电话:63861042</text>
+</view>

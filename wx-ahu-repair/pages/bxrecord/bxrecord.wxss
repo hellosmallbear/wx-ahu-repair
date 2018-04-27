@@ -1,0 +1,24 @@
+/* pages/bxrecord/bxrecord.wxss */
+.item1 {
+  margin-top: 5rpx;
+  margin-bottom: 25rpx;
+  border-bottom: solid 2px #ebebeb;
+  background: white;
+  width: 100%;
+  flex-direction: column;
+}
+
+.item-text1 {
+  margin-top: 10px;
+  display: flex;
+  color: black;
+}
+
+.item-text2 {
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 5px;
+  text-overflow: ellipsis;
+  color: gray;
+}

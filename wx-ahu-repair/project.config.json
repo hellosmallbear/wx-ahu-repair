@@ -1,0 +1,91 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.1",
+	"appid": "wxc3f5c8f20119acea",
+	"projectname": "login",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": 0,
+					"name": "报修页面",
+					"pathName": "pages/bxcontent/bxcontent",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "报修记录",
+					"pathName": "pages/bxrecord/bxrecord",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "shuidian",
+					"pathName": "pages/shuidianWx/shuidianWx",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "susheWx",
+					"pathName": "pages/susheWx/susheWx",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "kefu ",
+					"pathName": "pages/kefu/kefu",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "日历",
+					"pathName": "pages/calendar/calendar",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "about",
+					"pathName": "pages/about/about",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "notice",
+					"pathName": "pages/notice/notice",
+					"query": ""
+				}
+			]
+		}
+	}
+}

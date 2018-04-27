@@ -1,0 +1,42 @@
+{
+    "pages": [
+        "pages/login/login",
+        "pages/index/index",
+        "pages/bxrecord/bxrecord",
+        "pages/bxDetail/bxDetail",
+        "pages/susheWx/susheWx",
+        "pages/kefu/kefu",
+        "pages/shuju/shuju",
+        "pages/notice/notice",
+        "pages/airCondition/airCondition",
+        "pages/calendar/calendar",
+        "pages/about/about"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/images/icon/index.png",
+                "selectedIconPath": "/images/icon/index1.png"
+            },
+            {
+                "pagePath": "pages/susheWx/susheWx",
+                "text": "我要报修",
+                "iconPath": "/images/icon/baoxiu.png",
+                "selectedIconPath": "/images/icon/baoxiu_H.png"
+            },
+            {
+                "pagePath": "pages/bxrecord/bxrecord",
+                "text": "报修记录",
+                "iconPath": "/images/icon/baoxiujilu.png",
+                "selectedIconPath": "/images/icon/baoxiujilu_H.png"
+            }
+        ]
+    }
+}

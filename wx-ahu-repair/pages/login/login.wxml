@@ -1,0 +1,33 @@
+<view class="page-body">
+
+  <view class="contain">
+    <view class="imgcla">
+      <image class="userinfo-avatar1" src="../image/adhq.jpg"></image>
+    </view>
+  </view>
+
+  <view class='weui-ces'>
+    <view class="weui-cell">
+      <view class="weui-label">帐号：</view>
+      <view class="weui-cell__bd">
+        <input class="weui-input" type="text" placeholder-class="placla" placeholder="请输入学工号" bindinput="stunumInput"></input>
+      </view>
+    </view>
+  </view>
+
+  <view class='weui-cex'>
+    <view class='weui-cell'>
+      <view class="weui-label">密码：</view>
+      <view class="weui-cell__bd">
+        <input class="weui-input" confirm-type="go" type="idcard" password="true" placeholder-class="placla" placeholder="身份证后六位" bindinput="passwordInput"></input>
+      </view>
+    </view>
+  </view>
+
+
+  <view style="padding:20rpx">
+    <button style="padding:10rpx;color: #fff;background-color: #0066cc;width:88%;" bindtap="login" hover-class="button-hover" type="primary">登录</button>
+    <text class='text-bottom'>安徽大学报修系统</text>
+  </view>
+
+</view>

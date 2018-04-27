@@ -1,0 +1,74 @@
+<!--pages/fangwuWx/fangwuWx.wxml-->
+<form bindsubmit="formSubmit">
+  <view class="mod-a">
+    <view class="mod t-name">
+      <text class="key">学工号:</text>
+      <input name="number" class="input" maxlength="100"  value='{{number}}' placeholder="请输入学工号" />
+    </view>
+  </view>
+  <view class="mod-a">
+    <view class="mod t-name">
+      <text class="key">联系人电话:</text>
+      <input name="tel" class="input" type='number' maxlength="100" placeholder="请输入手机号码" />
+    </view>
+  </view>
+
+  <view class="mod-a">
+    <view class="key">园区选择：</view>
+    <picker mode="selector" range="{{array1}}" value="{{index1}}" bindchange="listenerPickerSelected1">
+      <text>{{array1[index1]}}</text>
+    </picker>
+  </view>
+
+  <view class="mod-a">
+    <view class="mod t-name">
+      <text class="key">宿舍号:</text>
+      <input name="dormNumber" class="input" maxlength="100" placeholder="请准确填写，如：2415" />
+    </view>
+  </view>
+
+  <view class="mod-a">
+    <view class="key">故障设备：</view>
+    <picker mode="selector" range="{{array2}}" value="{{index2}}" bindchange="listenerPickerSelected2">
+      <text>{{array2[index2]}}</text>
+    </picker>
+  </view>
+
+  <view class="mod-a">
+    <view class="key">故障原因：</view>
+    <picker mode="selector" range="{{array3}}" value="{{index3}}" bindchange="listenerPickerSelected3">
+      <text>{{array3[index3]}}</text>
+    </picker>
+  </view>
+
+  <view class="mod-a">
+    <view class="mod">
+      <text class="key company-desc">报修问题简述:</text>
+      <textarea name="repairContext" auto-height placeholder="简介" class="company-desc-txt" />
+    </view>
+  </view>
+
+  <view class="mod-a">
+    <view class="key">日期选择：</view>
+    <picker mode="date" value="{{date}}" start="2018-01-20" end="2020-01-20" bindchange="bindDateChange">
+      <text>{{date}}</text>
+    </picker>
+  </view>
+
+   <view class="mod-a">
+    <view class="key">预约时间：</view>
+    <picker mode="selector" range="{{array4}}" value="{{index4}}" bindchange="listenerPickerSelected4">
+      <text>{{array4[index4]}}</text>
+    </picker>
+  </view> 
+
+  <view class='Img'>
+    <image class='image' catchtap="chooseImageTap" src="{{repairImg}}"></image>
+    <text class='text1'>上传报修照片，帮助我们更快解决问题</text>
+  </view>
+
+  <view class="create">
+    <button formType="submit" class="sub-btn">提交</button>
+  </view>
+  <!-- <view style='text-align:center;font-size:16px;color:red;font-weight:600'>您的报修信息提交于：{{time}}</view> -->
+</form>

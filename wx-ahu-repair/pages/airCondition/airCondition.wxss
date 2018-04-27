@@ -1,0 +1,11 @@
+/* pages/airCondition/airCondition.wxss */
+.air-text{
+  padding: 40rpx;
+  text-align: left
+}
+.air-text text{
+  display: block;
+  color: #888;
+  font-size:40rpx;
+  font-weight: 600
+}
