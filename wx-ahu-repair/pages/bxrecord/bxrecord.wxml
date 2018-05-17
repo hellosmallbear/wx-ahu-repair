@@ -2,15 +2,16 @@
 <block wx:for="{{repairMsg}}" wx:for-item="item">
 
   <view class="item1">
-    <view class="item-text2">报修时间：{{item.createTime}}</view>
+    <view class="item-text1">报修时间：{{item.submitTime}}</view>
     <view class="item-text1">报修内容：{{item.repairContext}}</view>
-    <view class="item-text1">派工时间：{{item.repairTime}}</view>
-    <view class="item-text2">状态：{{item.repairStatus}}</view>
+    <view class="item-text1">维修时间：{{item.repairTime}}</view>
+    <view class="item-text1">状态：{{item.repairStatus}}</view>
   </view>
 
 </block>
 
  <view>
-  <button style="padding:5rpx;color: #fff;background-color: #0066cc;width:100%;" bindtap="check" hover-class="button-hover" type="primary">查看</button>
+  <button style="padding:5rpx;color: #fff;background-color: #0099CC;width:100%;" bindtap="check" hover-class="button-hover" type="primary">查看</button>
 </view> 
+
 

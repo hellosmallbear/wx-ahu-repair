@@ -44,8 +44,7 @@
 
 .sub-btn {
   width: 100%;
-  background: #33d6ff;
-
+  background: #0099CC;
   line-height: 80rpx;
   color: #fff;
 }

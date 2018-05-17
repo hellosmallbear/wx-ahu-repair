@@ -3,7 +3,7 @@
   <view class="mod-a">
     <view class="mod t-name">
       <text class="key">学工号:</text>
-      <input name="number" class="input" maxlength="100"  value='{{number}}' placeholder="请输入学工号" />
+      <input name="number" class="input" maxlength="20"  value='{{number}}' placeholder="请输入学工号" />
     </view>
   </view>
   <view class="mod-a">
@@ -28,14 +28,14 @@
   </view>
 
   <view class="mod-a">
-    <view class="key">故障设备：</view>
+    <view class="key">故障分类：</view>
     <picker mode="selector" range="{{array2}}" value="{{index2}}" bindchange="listenerPickerSelected2">
       <text>{{array2[index2]}}</text>
     </picker>
   </view>
 
   <view class="mod-a">
-    <view class="key">故障原因：</view>
+    <view class="key">故障设备：</view>
     <picker mode="selector" range="{{array3}}" value="{{index3}}" bindchange="listenerPickerSelected3">
       <text>{{array3[index3]}}</text>
     </picker>
@@ -50,7 +50,7 @@
 
   <view class="mod-a">
     <view class="key">日期选择：</view>
-    <picker mode="date" value="{{date}}" start="2018-01-20" end="2020-01-20" bindchange="bindDateChange">
+    <picker mode="date" value="{{date}}" start="{{date}}" end="2022-05-20" bindchange="bindDateChange">
       <text>{{date}}</text>
     </picker>
   </view>
@@ -70,5 +70,4 @@
   <view class="create">
     <button formType="submit" class="sub-btn">提交</button>
   </view>
-  <!-- <view style='text-align:center;font-size:16px;color:red;font-weight:600'>您的报修信息提交于：{{time}}</view> -->
 </form>

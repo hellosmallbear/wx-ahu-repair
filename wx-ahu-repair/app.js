@@ -36,5 +36,4 @@ App({
     weixiudan: null,//维修单
     username:null,
   },
-  
 })

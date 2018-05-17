@@ -44,7 +44,7 @@
 }
 
 .active_date {
-    background: #148447;
+    background: #0099CC;
     color: #fff;
     border-radius: 50%;
 }

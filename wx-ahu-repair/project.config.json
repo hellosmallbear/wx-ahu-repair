@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.1",
 	"appid": "wxc3f5c8f20119acea",
-	"projectname": "login",
+	"projectname": "repair-%E4%BD%93%E9%AA%8C%E6%B5%8B%E8%AF%95%E7%89%88",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -29,7 +29,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": -1,
 			"list": [
 				{
 					"id": 0,
